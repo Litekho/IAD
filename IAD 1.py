@@ -23,7 +23,7 @@ def median(arr):
     if n % 2 == 0:
         return (arr[n//2 - 1] + arr[n//2]) / 2
     else:
-        return arr(n//2)
+        return arr[n//2]
 
 # Функция для расчета мат. ожидания
 def mu(arr):
